@@ -526,11 +526,21 @@ h1.navbar-brand {
     margin: 0 0 65px;
 }
 
+/* want image to be larger without padding  */
 #about .welcome-block img {
-    border: 3px solid #fff;
+    /* border: 3px solid #fff;
     border-radius: 50%;
-    margin-right: 35px;
-    max-width: 100px;
+    margin-right: 35px; */
+    /* max-width: 100px; */
+    width: 100px;
+    height: auto;
+    /* size: 20px; */
+    /* width: 100px; */
+
+}
+#about .pull-left img{
+    /* width: fit-content; */
+
 }
 
 #about .message-body {
@@ -539,6 +549,10 @@ h1.navbar-brand {
     margin-bottom: 70px;
 }
 
+/* .pull-left{
+    width: 30px;
+    height: auto;
+} */
 .owl-buttons {
     border: 2px solid #fff;
     display: inline-block;
@@ -1284,7 +1298,8 @@ textarea.form-control {
     }
 
     #about .welcome-block img {
-        margin: 0 25px 15px 0;
+        
+        margin: 0 25px 15px0 0;
     }
 
 /* service */
