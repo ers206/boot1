@@ -77,6 +77,7 @@ main > section {
     padding: 12px 35px;
 }
 
+/* changed below not sure what changed */
 .bg-blue {
     background-color: #009EE3;
 }
@@ -512,7 +513,8 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #009EE3;
+    /* was 009EE3 */
+    background-color: #2E2E2E;
     color: #fff;
 }
 
@@ -751,7 +753,8 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
-    background-color: rgba(15,155,224, 0.78);
+    /* was rbga(15,155,224, 0.78) */
+    background-color: rgba(46,46,46, 0.78);
     padding: 70px 0 40px;
 }
 
