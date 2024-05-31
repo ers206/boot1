@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+	<!-- meta character set -->
+	<meta charset="utf-8">
+	<!-- Always force latest IE rendering engine or request Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Photography Portfolio</title>
+	<!-- Meta Description -->
+	<meta name="description" content="Blue One Page Creative HTML5 Template">
+	<meta name="keywords"
+		content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
+	<meta name="author" content="Muhammad Morshed">
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS
+		================================================== -->
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+	<!-- Fontawesome Icon font -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- bootstrap.min -->
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<!-- bootstrap.min -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- bootstrap.min -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<!-- bootstrap.min -->
+	<link rel="stylesheet" href="css/slit-slider.css">
+	<!-- bootstrap.min -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- Modernizer Script for old Browsers -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
 </head>
-<body>
+<body class="pPage">
     <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
 		<div class="container">
 			<div class="navbar-header">
@@ -31,11 +64,12 @@
 			<!-- main nav -->
 			<nav class="collapse navbar-collapse navbar-right" role="navigation">
 				<ul id="nav" class="nav navbar-nav">
-					<li><a href="#body">Home</a></li>
-					<li><a href="#service">Service</a></li>
-					<li><a href="#portfolio">portfolio</a></li>
-					<li><a href="#testimonials">Testimonial</a></li>
-					<li><a href="#price">price</a></li>
+                    <!-- this is how its written on my site and it works. it doesnt here -->
+					<li><a href="index.html#body">Home</a></li>
+					<li><a href="index.html#service">Service</a></li>
+					<li><a href="portfolio.html">Gallery</a></li>
+					<li><a href="index.html#testimonials">Testimonial</a></li>
+					<li><a href="index.html#price">price</a></li>
 					<!-- <li><a href="#contact">Contact</a></li> -->
 				</ul>
 			</nav>
@@ -44,6 +78,459 @@
 		</div>
 	</header>
     <!-- wedding, family, website, video sections -->
-    
+    <!-- <div class="sec-title text-center">
+        <h2 class="wow animated bounceInLeft">Weddings</h2>
+        <p class="wow animated bounceInRight"></p>
+    </div> -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+
+                <div class="sec-title text-center">
+                    <h2 class="wow animated bounceInLeft" style="color: white;">Weddings</h2>
+                    <p class="wow animated bounceInRight"></p>
+                </div>
+
+                <!-- wow animated zoomIn" data-wow-delay="0.3s" -->
+                <!-- wow animated fadeInUp........ took out of below class -->
+                <ul class="project-wrapper ">
+                    <li class="portfolio-item wow animated zoomIn" data-wow-delay="0.3s">
+                        <img src="img/portfolio/cleanstreet.jpg" class="img-responsive"
+                            alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat">
+                        <figcaption class="mask">
+                            <h3>New York City</h3>
+                            <p>Greenwich Village </p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Araund The world" data-fancybox-group="works"
+                                    href="img/portfolio/cleanstreet.jpg"><i class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item wow animated zoomIn" data-wow-delay="0.6s" >
+                        <img src="img/portfolio/PXL_20230721_013206055.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>Madison Wisconsin</h3>
+                            <p>Concert on Monona terrace </p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street"
+                                    href="img/portfolio/PXL_20230721_013206055.jpg" data-fancybox-group="works"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item wow animated zoomIn" data-wow-delay="0.9s">
+                        <img src="img/portfolio/flowers.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>New York City</h3>
+                            <p>View from Highline park </p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Behind The world" data-fancybox-group="works"
+                                    href="img/portfolio//flowers.jpg"><i class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item wow animated zoomIn" data-wow-delay="1.1s">
+                        <img src="img/portfolio/pexels-igor-link-334249-933118.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
+                        <figcaption class="mask">
+                            <h3>Wedding </h3>
+                            <p>The Louvre Museum Paris France</p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street 4" data-fancybox-group="works"
+                                    href="img/portfolio/pexels-igor-link-334249-933118.jpg"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item wow animated zoomIn" data-wow-delay="1.3s">
+                        <img src="img/portfolio/pexels-thatguycraig000-1835926.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>Family Photo</h3>
+                            <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p> -->
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street 5" data-fancybox-group="works"
+                                    href="img/portfolio/pexels-thatguycraig000-1835926.jpg"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item wow animated zoomIn" data-wow-delay="1.4s">
+                        <img src="img/portfolio/pexels-imagestudio-949224.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>Wedding day</h3>
+                            <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p> -->
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street 6" data-fancybox-group="works"
+                                    href="img/portfolio/pexels-imagestudio-949224.jpg"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+ 
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+
+                <div class="sec-title text-center">
+                    <!-- might want to slow down this left to right bounce in -->
+                    <h2 class="wow animated bounceInLeft" data-wow-delay="1.3s" style="color: white;">Family Photos</h2>
+                    <p class="wow animated bounceInRight"></p>
+                </div>
+
+
+                <ul class="project-wrapper wow animated fadeInUp">
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/cleanstreet.jpg" class="img-responsive"
+                            alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat">
+                        <figcaption class="mask">
+                            <h3>New York City</h3>
+                            <p>Greenwich Village </p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Araund The world" data-fancybox-group="works"
+                                    href="img/portfolio/cleanstreet.jpg"><i class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/PXL_20230721_013206055.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>Madison Wisconsin</h3>
+                            <p>Concert on Monona terrace </p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street"
+                                    href="img/portfolio/PXL_20230721_013206055.jpg" data-fancybox-group="works"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/flowers.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>New York City</h3>
+                            <p>View from Highline park </p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Behind The world" data-fancybox-group="works"
+                                    href="img/portfolio//flowers.jpg"><i class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/pexels-igor-link-334249-933118.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
+                        <figcaption class="mask">
+                            <h3>Wedding </h3>
+                            <p>The Louvre Museum Paris France</p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street 4" data-fancybox-group="works"
+                                    href="img/portfolio/pexels-igor-link-334249-933118.jpg"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/pexels-thatguycraig000-1835926.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>Family Photo</h3>
+                            <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p> -->
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street 5" data-fancybox-group="works"
+                                    href="img/portfolio/pexels-thatguycraig000-1835926.jpg"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/pexels-imagestudio-949224.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>Wedding day</h3>
+                            <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p> -->
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street 6" data-fancybox-group="works"
+                                    href="img/portfolio/pexels-imagestudio-949224.jpg"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+<!-- 
+                <div class="sec-title text-center wow animated fadeInDown">
+                    <h2>FEATURED PICTURES</h2>
+                    <p>Here are some featured pictures, click the link to view in the gallery</p>
+                </div> -->
+                <div class="sec-title text-center">
+                    <h2 class="wow animated bounceInLeft" style="color: white;">Website Photos</h2>
+                    <p class="wow animated bounceInRight"></p>
+                </div>
+
+                <ul class="project-wrapper wow animated fadeInUp">
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/cleanstreet.jpg" class="img-responsive"
+                            alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat">
+                        <figcaption class="mask">
+                            <h3>New York City</h3>
+                            <p>Greenwich Village </p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Araund The world" data-fancybox-group="works"
+                                    href="img/portfolio/cleanstreet.jpg"><i class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/PXL_20230721_013206055.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>Madison Wisconsin</h3>
+                            <p>Concert on Monona terrace </p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street"
+                                    href="img/portfolio/PXL_20230721_013206055.jpg" data-fancybox-group="works"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/flowers.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>New York City</h3>
+                            <p>View from Highline park </p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Behind The world" data-fancybox-group="works"
+                                    href="img/portfolio//flowers.jpg"><i class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/pexels-igor-link-334249-933118.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
+                        <figcaption class="mask">
+                            <h3>Wedding </h3>
+                            <p>The Louvre Museum Paris France</p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street 4" data-fancybox-group="works"
+                                    href="img/portfolio/pexels-igor-link-334249-933118.jpg"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/pexels-thatguycraig000-1835926.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>Family Photo</h3>
+                            <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p> -->
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street 5" data-fancybox-group="works"
+                                    href="img/portfolio/pexels-thatguycraig000-1835926.jpg"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/pexels-imagestudio-949224.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>Wedding day</h3>
+                            <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p> -->
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street 6" data-fancybox-group="works"
+                                    href="img/portfolio/pexels-imagestudio-949224.jpg"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+
+                <div class="sec-title text-center">
+                    <h2 class="wow animated bounceInLeft" style="color: white;">Video</h2>
+                    <p class="wow animated bounceInRight"></p>
+                </div>
+                <!-- <div class="sec-title text-center wow animated fadeInDown">
+                    <h2>FEATURED PICTURES</h2>
+                    <p>Here are some featured pictures, click the link to view in the gallery</p>
+                </div> -->
+
+
+                <ul class="project-wrapper wow animated fadeInUp">
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/cleanstreet.jpg" class="img-responsive"
+                            alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat">
+                        <figcaption class="mask">
+                            <h3>New York City</h3>
+                            <p>Greenwich Village </p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Araund The world" data-fancybox-group="works"
+                                    href="img/portfolio/cleanstreet.jpg"><i class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/PXL_20230721_013206055.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>Madison Wisconsin</h3>
+                            <p>Concert on Monona terrace </p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street"
+                                    href="img/portfolio/PXL_20230721_013206055.jpg" data-fancybox-group="works"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/flowers.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>New York City</h3>
+                            <p>View from Highline park </p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Behind The world" data-fancybox-group="works"
+                                    href="img/portfolio//flowers.jpg"><i class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/pexels-igor-link-334249-933118.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
+                        <figcaption class="mask">
+                            <h3>Wedding </h3>
+                            <p>The Louvre Museum Paris France</p>
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street 4" data-fancybox-group="works"
+                                    href="img/portfolio/pexels-igor-link-334249-933118.jpg"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/pexels-thatguycraig000-1835926.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>Family Photo</h3>
+                            <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p> -->
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street 5" data-fancybox-group="works"
+                                    href="img/portfolio/pexels-thatguycraig000-1835926.jpg"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="portfolio-item">
+                        <img src="img/portfolio/pexels-imagestudio-949224.jpg" class="img-responsive"
+                            alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
+                        <figcaption class="mask">
+                            <h3>Wedding day</h3>
+                            <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p> -->
+                        </figcaption>
+                        <ul class="external">
+                            <li><a class="fancybox" title="Wall street 6" data-fancybox-group="works"
+                                    href="img/portfolio/pexels-imagestudio-949224.jpg"><i
+                                        class="fa fa-search"></i></a></li>
+                            <li><a href=""><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+	<!-- Essential jQuery Plugins
+		================================================== -->
+	<!-- Main jQuery -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<!-- Twitter Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Single Page Nav -->
+	<script src="js/jquery.singlePageNav.min.js"></script>
+	<!-- jquery.fancybox.pack -->
+	<script src="js/jquery.fancybox.pack.js"></script>
+	<!-- Google Map API -->
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<!-- Owl Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- jquery easing -->
+	<script src="js/jquery.easing.min.js"></script>
+	<!-- Fullscreen slider -->
+	<script src="js/jquery.slitslider.js"></script>
+	<script src="js/jquery.ba-cond.min.js"></script>
+	<!-- onscroll animation -->
+	<script src="js/wow.min.js"></script>
+	<!-- Custom Functions -->
+	<script src="js/main.js"></script>
 </body>
 </html>

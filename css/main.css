@@ -21,7 +21,9 @@ body {
     font-size: 16px;
     color: #818181;
 }
-
+.pPage {
+    background-color: rgba(46,46,46, 0.78);
+}
 figure, p, address {
     margin: 0;
 }
