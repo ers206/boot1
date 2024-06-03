@@ -20,6 +20,7 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<!-- Fontawesome Icon font -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<!-- bootstrap.min -->
@@ -41,15 +42,15 @@
 </head>
 <body class="pPage">
     <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
-		<div class="container">
+		<div class="container ">
 			<div class="navbar-header">
 				<!-- responsive nav button -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-				</button>
+				</button> -->
 				<!-- /responsive nav button -->
 
 				<!-- logo -->
@@ -62,14 +63,14 @@
 			</div>
 
 			<!-- main nav -->
-			<nav class="collapse navbar-collapse navbar-right" role="navigation">
+			<nav class="navbar navbar-expand navbar-right " role="navigation">
 				<ul id="nav" class="nav navbar-nav">
                     <!-- this is how its written on my site and it works. it doesnt here -->
-					<li><a href="index.html#body">Home</a></li>
-					<li><a href="index.html#service">Service</a></li>
-					<li><a href="portfolio.html">Gallery</a></li>
-					<li><a href="index.html#testimonials">Testimonial</a></li>
-					<li><a href="index.html#price">price</a></li>
+					<li class="nav-item"><a href="index.html#body">Home</a></li>
+					<li class="nav-item"><a href="index.html#service">Service</a></li>
+					<li class="nav-item"><a href="portfolio.html">Gallery</a></li>
+					<li class="nav-item"><a href="index.html#testimonials">Testimonial</a></li>
+					<li class="nav-item"><a href="index.html#price">price</a></li>
 					<!-- <li><a href="#contact">Contact</a></li> -->
 				</ul>
 			</nav>
@@ -77,14 +78,22 @@
 
 		</div>
 	</header>
+
+
     <!-- wedding, family, website, video sections -->
     <!-- <div class="sec-title text-center">
         <h2 class="wow animated bounceInLeft">Weddings</h2>
         <p class="wow animated bounceInRight"></p>
     </div> -->
-    <section id="portfolio">
+    <section id="portfolio1">
         <div class="container">
             <div class="row">
+                    <!-- h1 GALLERY make animated and way larger -->
+                    <div class="sec-title text-center">
+                        <!-- wow animated rotateIn -->
+                        <h1 class="wow animated rollIn" style="color: white; font-size: 75px" >GALLERY</h1>
+                        <p class="wow animated bounceInRight"></p>
+                    </div>
 
                 <div class="sec-title text-center">
                     <h2 class="wow animated bounceInLeft" style="color: white;">Weddings</h2>
@@ -95,7 +104,7 @@
                 <!-- wow animated fadeInUp........ took out of below class -->
                 <ul class="project-wrapper ">
                     <li class="portfolio-item wow animated zoomIn" data-wow-delay="0.3s">
-                        <img src="img/portfolio/cleanstreet.jpg" class="img-responsive"
+                        <img src="img/portfolio/cleanstreet.jpg" style= "border: 5px inset rgb(37, 64, 70)" class="img-responsive"
                             alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat">
                         <figcaption class="mask">
                             <h3>New York City</h3>
@@ -109,7 +118,7 @@
                     </li>
 
                     <li class="portfolio-item wow animated zoomIn" data-wow-delay="0.6s" >
-                        <img src="img/portfolio/PXL_20230721_013206055.jpg" class="img-responsive"
+                        <img src="img/portfolio/PXL_20230721_013206055.jpg" style= "border: 5px inset rgb(37, 64, 70)" class="img-responsive "
                             alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
                         <figcaption class="mask">
                             <h3>Madison Wisconsin</h3>
@@ -124,7 +133,7 @@
                     </li>
 
                     <li class="portfolio-item wow animated zoomIn" data-wow-delay="0.9s">
-                        <img src="img/portfolio/flowers.jpg" class="img-responsive"
+                        <img src="img/portfolio/flowers.jpg" style= "border: 5px inset rgb(37, 64, 70)" class="img-responsive"
                             alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
                         <figcaption class="mask">
                             <h3>New York City</h3>
@@ -137,8 +146,8 @@
                         </ul>
                     </li>
 
-                    <li class="portfolio-item wow animated zoomIn" data-wow-delay="1.1s">
-                        <img src="img/portfolio/pexels-igor-link-334249-933118.jpg" class="img-responsive"
+                    <li class="portfolio-item wow animated zoomIn" data-wow-delay="0.3s">
+                        <img src="img/portfolio/pexels-igor-link-334249-933118.jpg" style= "border: 5px inset rgb(37, 64, 70)" class="img-responsive"
                             alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry.">
                         <figcaption class="mask">
                             <h3>Wedding </h3>
@@ -152,8 +161,8 @@
                         </ul>
                     </li>
 
-                    <li class="portfolio-item wow animated zoomIn" data-wow-delay="1.3s">
-                        <img src="img/portfolio/pexels-thatguycraig000-1835926.jpg" class="img-responsive"
+                    <li class="portfolio-item wow animated zoomIn" data-wow-delay="0.6s">
+                        <img src="img/portfolio/pexels-thatguycraig000-1835926.jpg" style= "border: 5px inset rgb(37, 64, 70)" class="img-responsive"
                             alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
                         <figcaption class="mask">
                             <h3>Family Photo</h3>
@@ -167,8 +176,8 @@
                         </ul>
                     </li>
 
-                    <li class="portfolio-item wow animated zoomIn" data-wow-delay="1.4s">
-                        <img src="img/portfolio/pexels-imagestudio-949224.jpg" class="img-responsive"
+                    <li class="portfolio-item wow animated zoomIn" data-wow-delay="0.9s">
+                        <img src="img/portfolio/pexels-imagestudio-949224.jpg"  style= "border: 5px inset rgb(37, 64, 70)" class="img-responsive"
                             alt="Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. ">
                         <figcaption class="mask">
                             <h3>Wedding day</h3>
@@ -194,7 +203,7 @@
 
                 <div class="sec-title text-center">
                     <!-- might want to slow down this left to right bounce in -->
-                    <h2 class="wow animated bounceInLeft" data-wow-delay="1.3s" style="color: white;">Family Photos</h2>
+                    <h2 class="wow animated bounceInLeft" data-wow-delay="0.3s" style="color: white;">Family Photos</h2>
                     <p class="wow animated bounceInRight"></p>
                 </div>
 
@@ -511,6 +520,8 @@
     </section>
 	<!-- Essential jQuery Plugins
 		================================================== -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 	<!-- Main jQuery -->
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<!-- Twitter Bootstrap -->

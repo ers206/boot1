@@ -24,6 +24,9 @@ body {
 .pPage {
     background-color: rgba(46,46,46, 0.78);
 }
+#portfolio1{
+    padding-top: 10%;
+}
 figure, p, address {
     margin: 0;
 }
@@ -637,10 +640,12 @@ h1.navbar-brand {
     padding: 0;
     list-style: none;
     text-align: center;
+   
 }
 
 .project-wrapper li {
     display: inline-block;
+    /* border: #f4f6f7; */
 }
 
 .portfolio-item {
