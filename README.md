@@ -1,5 +1,6 @@
 # boot1
 <!-- TODO -->
+<!-- gallery linnks dont work -->
 <!-- take photos and video -->
 <!--  download free video an put it on youtube-->
 <!-- portfolio page needs navbar to have space  -->
