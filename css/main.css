@@ -21,7 +21,7 @@ body {
     font-size: 16px;
     color: #818181;
 }
-.pPage {
+.pPage, #portfolio {
     background-color: rgba(46,46,46, 0.78);
 }
 #portfolio1{
@@ -750,7 +750,7 @@ ul.external li a:hover {
 
 
 #testimonials {
-    background-image: url(../img/slider/chiline.JPG);
+    background-image: url(../img/portfolio/cliffs.JPG);
     padding: 0;
     color: #fff;
 }
@@ -921,7 +921,7 @@ ul.external li a:hover {
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/parkLake.jpg);
+    background-image: url(../img/slider/skyline.jpg);
     padding: 0;
 }
 

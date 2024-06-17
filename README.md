@@ -1,20 +1,26 @@
 # boot1
 <!-- TODO -->
-<!-- gallery linnks dont work -->
+
 <!-- take photos and video -->
 <!--  download free video an put it on youtube-->
-<!-- portfolio page needs navbar to have space  -->
-<!-- add footer to gallery -->
+<!-- maybe everyother section white and black -->
 <!-- boarders on gallery pics -->
-
+<!-- change footer -->
+<!-- background for gallery on home page -->
 
 <!-- STARTED -->
-<!-- create page of just images (not sure if it should be modal or carousel) with categories-->
+
 <!-- used stock food and wedding -->
 
+<!-- NOT SURE IT IS NEEDED -->
+<!-- portfolio page needs navbar to have space  -->
+<!-- add footer to gallery -->
+<!-- gallery linnks dont work*****put gallery on home page?-->
+<!-- added bootstrap 5 to gallery page -->
+<!-- create page of just images (not sure if it should be modal or carousel) with categories-->
 
 <!-- CHANGED -->
-<!-- added bootstrap 5 to gallery page -->
+
 
 
 <!-- DELETE WHEN FINISHED -->
