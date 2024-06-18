@@ -27,6 +27,9 @@ body {
 #portfolio1{
     padding-top: 10%;
 }
+#portfolio2{
+    background-color: #fff;
+}
 figure, p, address {
     margin: 0;
 }
@@ -306,8 +309,22 @@ h1.navbar-brand {
     font-size: 15px;
     text-transform: uppercase;
 }
-
-
+#navLi:hover a {
+    color: #008ECC;
+    text-shadow: 0 0 1px #252525, 0 0 1px #252525, 0 0 1px #252525, 0 0 1px #252525;
+}
+/* #navLi:hover {
+    animation: shake 0.2s;
+    animation-name: shake;
+  }
+  @keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-10px);
+    }
+  } */
 /*=================================================================
 	Home Slider
 ==================================================================*/

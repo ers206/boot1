@@ -3,7 +3,7 @@
 
 <!-- take photos and video -->
 <!--  download free video an put it on youtube-->
-<!-- maybe everyother section white and black -->
+
 <!-- boarders on gallery pics -->
 <!-- change footer -->
 <!-- background for gallery on home page -->
@@ -64,5 +64,5 @@ rotateInDownRight: .wow rotateInDownRight
 rotateInUpLeft: .wow rotateInUpLeft
 rotateInUpRight: .wow rotateInUpRight
 Other animations:
-lightSpeedIn: .wow lightSpeedIn
+lightSpeedIn: .wow bounceInRight
 rollIn: .wow rollIn -->
