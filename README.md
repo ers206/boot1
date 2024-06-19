@@ -2,17 +2,19 @@
 <!-- TODO -->
 
 <!-- take photos and video -->
-<!--  download free video an put it on youtube-->
+
 
 <!-- boarders on gallery pics -->
 <!-- change footer -->
-<!-- background for gallery on home page -->
+<!-- have some headings come in from right instead of left, maybe every other in gallery -->
 
 <!-- STARTED -->
 
 <!-- used stock food and wedding -->
 
 <!-- NOT SURE IT IS NEEDED -->
+
+<!--  download free video an put it on youtube-->
 <!-- portfolio page needs navbar to have space  -->
 <!-- add footer to gallery -->
 <!-- gallery linnks dont work*****put gallery on home page?-->
