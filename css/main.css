@@ -20,6 +20,8 @@ body {
     line-height: 24px;
     font-size: 16px;
     color: #818181;
+    /* *******************added when navbar was too wide and made scroll left right bar apear on bottom of page */
+    overflow-x: hidden;
 }
 .pPage, #portfolio {
     background-color: rgba(46,46,46, 0.78);
@@ -317,7 +319,9 @@ h1.navbar-brand {
 #headerHeading {
     text-shadow: 0 0 1px #252525, 0 0 1px #252525, 0 0 1px #252525, 0 0 1px #252525;
 }
-
+#navLi2 {
+    display: inline-block;
+}
 /* #navLi:hover {
     animation: shake 0.2s;
     animation-name: shake;
@@ -639,7 +643,11 @@ h1.navbar-brand {
     margin-bottom: 20px;
     color: #009ee3;
 }
-
+/* #service {
+    background-image: url(../img/slider/PXL_20220604_020954767.NIGHT.jpg);
+    padding: 0;
+    color: #fff;
+} */
 .service-icon i {
     -webkit-transform: rotate(-48deg);
        -moz-transform: rotate(-48deg);
@@ -1069,21 +1077,35 @@ textarea.form-control {
     color: #fff;
 }
 
-.footer-content {
-    width: 390px;
+/* .footer-content {
+   
+    width: 390pa;
     margin: 0 auto;
 }
 
 .footer-content > div {
-    margin-bottom: 40px;
+    
+    margin-bottom: 20px;
 }
 
 .footer-content > div > p:first-child {
     margin-bottom: 15px;
     text-transform: uppercase;
+} */
+.nav2 {
+    padding: 20px;
+    /* padding-bottom: 30px; */
 }
-
-.subscribe-form {
+footer p {
+    padding-top: 20px;
+}
+#navFooter {
+    display: flex; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+   
+/* .subscribe-form {
     position: relative;
 }
 
@@ -1136,13 +1158,13 @@ textarea.form-control {
         -ms-transform: translateX(30px);
          -o-transform: translateX(30px);
             transform: translateX(30px);
-}
+} */
 
-.footer-content .footer-social {
+/* .footer-content .footer-social {
     margin: 40px 0 35px;
-}
+} */
 
-.footer-social ul {
+/* .footer-social ul {
     list-style: outside none none;
     margin: 0;
     padding: 0;
@@ -1167,12 +1189,12 @@ textarea.form-control {
 
 .footer-social ul li a:hover {
     color: #009EE3;
-}
-
+} */
+/* 
 .footer-content > p {
     color: #ababab;
     font-size: 12px;
-}
+} */
 
 
 
