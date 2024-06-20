@@ -2,7 +2,7 @@
 <!-- TODO -->
 
 <!-- take photos and video -->
-
+<!-- every link scrolls but navbar scrolling is delayed -->
 <!-- click services and got to coresponding gallery section -->
 <!-- boarders on gallery pics -->
 <!-- put pics in gallery -->

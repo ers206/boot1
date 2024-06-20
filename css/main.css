@@ -13,7 +13,12 @@
 /* =================================== */
 /*	Basic Style 
 /* =================================== */
+/* if i make this html everything scrolls but the nav bar is delayed main doesnt seem to work. 
+maybe use each section */
+main{
+    scroll-behavior: smooth;
 
+}
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -949,10 +954,14 @@ ul.external li a:hover {
 /*=================================================================
 	Price
 ==================================================================*/
-
+/* a {
+    scroll-behavior: smooth;
+} */
 #social {
     background-image: url(../img/slider/skyline.jpg);
     padding: 0;
+    /* didnt work  */
+    /* scroll-behavior: smooth; */
 }
 
 #social .overlay {
