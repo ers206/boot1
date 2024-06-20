@@ -3,10 +3,11 @@
 
 <!-- take photos and video -->
 
-
+<!-- click services and got to coresponding gallery section -->
 <!-- boarders on gallery pics -->
-<!-- change footer -->
-<!-- have some headings come in from right instead of left, maybe every other in gallery -->
+<!-- put pics in gallery -->
+
+<!-- video section? -->
 
 <!-- STARTED -->
 
@@ -26,6 +27,23 @@
 
 
 <!-- DELETE WHEN FINISHED -->
+
+<!-- Solid: A solid border, with a flat color.
+Dotted: A border with dots.
+Dashed: A border with dashes.
+Double: A double border, with two parallel lines.
+Groove: A 3D grooved border.
+Ridge: A 3D ridged border.
+Inset: A 3D inset border.
+Outset: A 3D outset border.
+None: No border.
+Hidden: A hidden border (similar to none, but takes up space).
+Mixed: A combination of border styles (e.g., dotted and dashed).
+Additionally, you can also use the following border styles:
+Border-width: Specify the width of the border (e.g., thin, medium, thick, or a specific width).
+Border-color: Specify the color of the border.
+Border-radius: Add a rounded corner to the border.
+Border-style: Shorthand property to set border-width, border-color, and border-style simultaneously. -->
 
 
 <!-- WOW ANIMATIONs -->
