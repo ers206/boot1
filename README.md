@@ -1,20 +1,22 @@
 # boot1
 <!-- TODO -->
 
+<!-- background colors shoul match top section -->
+<!-- when screen shrinks items on footer and header are aligned vert. need to change -->
 <!-- take photos and video -->
 <!-- every link scrolls but navbar scrolling is delayed -->
 <!-- click services and got to coresponding gallery section -->
 <!-- boarders on gallery pics -->
 <!-- put pics in gallery -->
 
-<!-- video section? -->
+
 
 <!-- STARTED -->
 
 <!-- used stock food and wedding -->
 
 <!-- NOT SURE IT IS NEEDED -->
-
+<!-- video section? -->
 <!--  download free video an put it on youtube-->
 <!-- portfolio page needs navbar to have space  -->
 <!-- add footer to gallery -->
