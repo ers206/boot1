@@ -28,13 +28,13 @@ body {
     /* *******************added when navbar was too wide and made scroll left right bar apear on bottom of page */
     overflow-x: hidden;
 }
-.pPage, #portfolio {
+ #portfolio1, #portfolio3 {
     background-color: #2E2E2E;
 }
 #portfolio1{
     padding-top: 10%;
 }
-#portfolio2{
+#portfolio2, #portfolio4 {
     background-color: #fff;
 }
 figure, p, address {
@@ -622,8 +622,9 @@ h1.navbar-brand {
 /*=================================================================
 	Services
 ==================================================================*/
-#service a:visited, a:active {
-    color: red;
+/* as soon as I added the links in <a> below stopped working */
+#service a:visited, a:active, a:link {
+    color: #818181;
   }
 
 .service-icon {
@@ -647,7 +648,7 @@ h1.navbar-brand {
 }
 /* ***************************************************************** */
 .service-item:hover .service-icon {
-    border: 3px solid #009ee3;
+    border: 3px solid #818181;
     margin-bottom: 20px;
     color: #009ee3;
 }
@@ -1106,16 +1107,16 @@ textarea.form-control {
 } */
 .nav2 {
     padding: 20px;
-    /* padding-bottom: 30px; */
+   
 }
 footer p {
     padding-top: 20px;
 }
-#navFooter {
+/* #navFooter {
     display: flex; 
     flex-wrap: nowrap;
     justify-content: space-between;
-  }
+  } */
    
 /* .subscribe-form {
     position: relative;
