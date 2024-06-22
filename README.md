@@ -2,9 +2,9 @@
 <!-- TODO -->
 
 
-<!-- background colors shoul match top section they do but need to rename portfolio sections -->
+
 <!-- when screen shrinks items on footer(footer fixed commented out display: flex; flex-wrap: nowrap; in css) and header are aligned vert. need to change -->
-<!-- take photos and video -->
+
 
 <!-- click services and got to coresponding gallery section -->
 <!-- boarders on gallery pics -->
