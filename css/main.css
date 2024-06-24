@@ -327,6 +327,48 @@ h1.navbar-brand {
 #navLi2 {
     display: inline-block;
 }
+
+/* this is for 3 line menu when screen is smaller (hamburger) */
+/* Flexbox for navigation bar */
+#navLines {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* Style for individual nav items */
+#navLines .nav-item {
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Style for nav links */
+#navLines .nav-item a {
+    text-decoration: none;
+    padding: 10px;
+    /* color: #000; */
+}
+
+/* Hide the hamburger menu by default */
+#navToggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    #navLines {
+        flex-direction: row; /* Maintain row direction */
+    }
+}
+
 /* #navLi:hover {
     animation: shake 0.2s;
     animation-name: shake;
@@ -1306,7 +1348,8 @@ footer p {
     }
 
     .parallax {
-        background-position: centet tip !important;
+        /* said centet not center */
+        background-position: center tip !important;
     }
 
     .sec-title h2 {
@@ -1318,6 +1361,7 @@ footer p {
     }
 
 /*navigation*/
+
     .navbar-inverse .navbar-toggle {
         border-color: #fff;
     }
@@ -1439,6 +1483,7 @@ footer p {
     .footer-social ul li {
         margin: 0 7px;
     }
+
 }
 
 
@@ -1447,7 +1492,24 @@ footer p {
 ==============================================================*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+/* ******************************************************************************************* */
+    /* need nav itemes to be aligned hroizontal and smaller */
+    /* nothing is working nothing changes  */
+    #navLines {
+        flex-direction: row; /* Maintain row direction */
+    }
 
+    /* #navLines {
+        display: hidden;
+    }
+
+    #navBar1{
+        color: red;
+    }
+    #navLi {
+        color: red;
+    } */
+/* ******************************************************************************************** */
     .sec-title h2:after {
         left: 38%;
     }
@@ -1520,5 +1582,21 @@ footer p {
 /* footer */
     .footer-content {
         width: 380px;
+    }
+}
+
+@media (max-width: 600px) {
+    #navLines {
+        display: none; /* Hide nav items by default */
+        flex-direction: column;
+    }
+
+    #navToggle {
+        display: block; /* Show the hamburger menu */
+    }
+
+    /* When the checkbox is checked, show the nav items */
+    #navToggle:checked + #navLines {
+        display: flex;
     }
 }

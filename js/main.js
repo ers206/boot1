@@ -267,3 +267,8 @@ var wow = new WOW ({
 });
 wow.init();
 
+// this is for the 3 line menu when screen is small
+document.getElementById('navToggle').addEventListener('click', function() {
+    var navLines = document.getElementById('navLines');
+    navLines.classList.toggle('show');
+});

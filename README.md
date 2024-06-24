@@ -2,12 +2,12 @@
 
 ## Purpose
 
-Our inaugural website proudly represents our entry into the dynamic realms of web development, social media marketing, and online advertising. Crafted with care, it serves as a comprehensive platform to highlight and showcase the diverse array of services we bring to the digital landscape.
+
 
 
 ## Description
 
-Constructed using HTML, CSS, and Bootstrap, this website offers a glimpse into the world of web development, online advertising, and social media marketing. In addition to featuring various elements pertinent to these fields, it also proudly displays our curated collection of photos and videos, showcasing our expertise and creativity.
+Constructed using HTML, CSS, and Bootstrap, this website .
 
 ## Built with
 
@@ -18,11 +18,11 @@ Constructed using HTML, CSS, and Bootstrap, this website offers a glimpse into t
 
 ## images
 
-![]()
-![]()
-![]()
-![]()
-
+![](/img/readmeScreenshots/Screenshot%202024-06-24%20104313.png)
+![](/img/readmeScreenshots/Screenshot%202024-06-24%20104355.png)
+![](/img/readmeScreenshots/Screenshot%202024-06-24%20104427.png)
+![](/img/readmeScreenshots/Screenshot%202024-06-24%20104453.png)
+![](/img/readmeScreenshots/Screenshot%202024-06-24%20104523.png)
 
 
 ## Website
@@ -36,9 +36,9 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- TODO -->
 
-
+<!-- delete unused images -->
 <!-- should it say gallery at begining of gallery? -->
-<!-- do I need home on navbar and footer, its only one page -->
+<!-- do I need home on navbar and footer, its only one page.... it brings to top of page-->
 <!-- when screen shrinks items on footer(footer fixed commented out display: flex; flex-wrap: nowrap; in css) and header are aligned vert. need to change -->
 <!-- when screen shrinks there are 3 dots under teh top carousel. Im using 4 images -->
 <!-- check all links, spelling, sizes -->
