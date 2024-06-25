@@ -1,19 +1,25 @@
 # E Tech Photography
 
 ## Purpose
-
+This platform serves as a dynamic showcase of my skills and passion as both a developer and a photographer. As a developer, I aim to demonstrate my proficiency in various programming languages, frameworks, and technologies through a collection of my projects and code samples. As a photographer, I share my unique perspective of the world through a curated gallery of my best work. This website is designed not only to present my professional abilities but also to highlight my creative endeavors, offering a comprehensive view of who I am and what I can achieve. Thank you for visiting, and I hope you enjoy exploring my work.
 
 
 
 ## Description
 
-Constructed using HTML, CSS, and Bootstrap, this website .
+This website is built with a variety of technologies to ensure a seamless and visually appealing user experience. It incorporates Font Awesome for scalable vector icons, and Bootstrap for responsive design and pre-styled components. jQuery is utilized for simplified DOM manipulation and event handling, while Owl Carousel and Slit Slider provide sleek, interactive image sliders. jQuery Fancybox enables elegant lightbox effects for images and media, and Animate.css adds engaging animations. WOW.js is used to reveal animations upon scrolling. For navigation, and jQuery Single Page Nav enhances single-page scrolling.. All custom behaviors and interactions are managed through the main JavaScript file, ensuring a cohesive and dynamic user experience.
 
 ## Built with
 
 * HTML
 * CSS
 * Bootstrap
+* JavaScript
+* jQuery
+* Owl Carousel
+* Slit Slider
+* Fancybox 
+* Animate.css
 
 
 ## images
@@ -36,10 +42,12 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- TODO -->
 
+
+
 <!-- delete unused images -->
-<!-- should it say gallery at begining of gallery? -->
-<!-- do I need home on navbar and footer, its only one page.... it brings to top of page-->
-<!-- when screen shrinks items on footer(footer fixed commented out display: flex; flex-wrap: nowrap; in css) and header are aligned vert. need to change -->
+
+
+
 <!-- when screen shrinks there are 3 dots under teh top carousel. Im using 4 images -->
 <!-- check all links, spelling, sizes -->
 

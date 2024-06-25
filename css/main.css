@@ -15,7 +15,7 @@
 /* =================================== */
 /* if i make this html everything scrolls but the nav bar is delayed main doesnt seem to work. 
 maybe use each section */
-main{
+HTML {
     scroll-behavior: smooth;
 
 }
@@ -317,12 +317,22 @@ h1.navbar-brand {
     font-size: 15px;
     text-transform: uppercase;
 }
-#navLi:hover a {
+
+
+#navTop:hover a {
     color: #008ECC;
+    
+}
+
+#navLines {
     text-shadow: 0 0 0.7px #252525, 0 0 1px #252525, 0 0 1px #252525, 0 0 1px #252525;
 }
 #headerHeading {
     text-shadow: 0 0 1px #252525, 0 0 1px #252525, 0 0 1px #252525, 0 0 1px #252525;
+    color: white;
+}
+#headerHeading:hover{
+    color:#008ECC ;
 }
 #navLi2 {
     display: inline-block;
@@ -444,6 +454,7 @@ h1.navbar-brand {
     font-weight: 400;
     margin-bottom: 25px;
     text-transform: uppercase;
+    text-shadow: 0 0 1px #252525, 0 0 1px #252525, 0 0 1px #252525, 0 0 1px #252525;
 }
 
 .caption-content > span {
@@ -451,6 +462,7 @@ h1.navbar-brand {
     font-size: 24px;
     margin-bottom: 45px;
     text-transform: capitalize;
+    text-shadow: 0 0 1px #252525, 0 0 1px #252525, 0 0 1px #252525, 0 0 1px #252525;
 }
 
 .caption-content p {
@@ -1151,6 +1163,12 @@ textarea.form-control {
     padding: 20px;
    
 }
+#copyRight:hover{
+    color:white
+}
+#navBot:hover{
+    text-decoration: underline;
+}
 footer p {
     padding-top: 20px;
 }
@@ -1585,7 +1603,7 @@ footer p {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
     #navLines {
         display: none; /* Hide nav items by default */
         flex-direction: column;
