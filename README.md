@@ -42,13 +42,13 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- TODO -->
 <!-- check in other browsers -->
-
-
+<!-- firefox it doesnt say contact us on slider text too dark -->
+<!-- opera too, change color of font in contact us on slider -->
 
 <!-- clean up code and clear this -->
 
 
-<!-- when screen shrinks there are 3 dots under teh top carousel. Im using 4 images -->
+
 
 <!-- check all links, spelling, sizes *****-->
 
