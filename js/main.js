@@ -272,3 +272,5 @@ document.getElementById('navToggle').addEventListener('click', function() {
     var navLines = document.getElementById('navLines');
     navLines.classList.toggle('show');
 });
+
+

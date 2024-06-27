@@ -17,8 +17,14 @@
 maybe use each section */
 HTML {
     scroll-behavior: smooth;
+    
 
 }
+/* HTML a {
+    color: white;
+} */
+
+
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -97,6 +103,8 @@ main > section {
     background-color: #009EE3;
 }
 
+
+  
 /* Sweep To Right */
 .btn-effect {
 	vertical-align: middle;
@@ -126,7 +134,9 @@ main > section {
 		  
 	-moz-osx-font-smoothing: grayscale;
 }
-
+/* .btn-effect a:before{
+    color: white;
+} */
 .btn-effect:before {
 	content: "";
 	position: absolute;
@@ -136,6 +146,7 @@ main > section {
 	right: 0;
 	bottom: 0;
 	background: #fff;
+    /* color: #ffff; */
 	
 	-webkit-transform: scaleX(0);
 	   -moz-transform: scaleX(0);
@@ -163,7 +174,7 @@ main > section {
 			transition-timing-function: ease-out;
 }
 
-.btn-effect:hover, .btn-effect:focus, .btn-effect:active {
+/* .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
 	color: #009EE3;
 }
 
@@ -172,7 +183,7 @@ main > section {
 	   -moz-transform: scaleX(1);
 	    -ms-transform: scaleX(1);
 			transform: scaleX(1);
-}
+} */
 
 .sec-title {
     margin-bottom: 50px;
@@ -544,7 +555,7 @@ h1.navbar-brand {
     height: 100%;
 }
 
-/* Default styles for background colors
+/* Default styles for background colors */
 
 .btn-effect:after {
     width: 0%;
@@ -563,9 +574,10 @@ h1.navbar-brand {
             transition: all 0.3s ease-out 0s;
 }
 
-.btn-effect:hover,
+/* .btn-effect:hover,
 .btn-effect:active {
     color: #0e83cd;
+    
 }
 
 .btn-effect:hover:after,
@@ -1253,7 +1265,12 @@ footer p {
     font-size: 12px;
 } */
 
-
+/* @-moz-document url-prefix() {
+    .btn-effect {
+      text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 1px #ffffff;
+    }
+  } */
+  
 
 /*============================================================ 
 	Responsive Styles
