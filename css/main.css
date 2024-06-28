@@ -1,28 +1,14 @@
-/**
-*
-* ---------------------------------------------------------------------------
-*
-* Template : Blue - A One-Page HTML Portfolio/Business Template
-* Author : Muhammad Morshd
-* Author URI : http://morsheds.com
-*
-* --------------------------------------------------------------------------- 
-*
-*/
+
 
 /* =================================== */
 /*	Basic Style 
 /* =================================== */
-/* if i make this html everything scrolls but the nav bar is delayed main doesnt seem to work. 
-maybe use each section */
 HTML {
     scroll-behavior: smooth;
     
 
 }
-/* HTML a {
-    color: white;
-} */
+
 
 
 body {
@@ -31,7 +17,6 @@ body {
     line-height: 24px;
     font-size: 16px;
     color: #818181;
-    /* *******************added when navbar was too wide and made scroll left right bar apear on bottom of page */
     overflow-x: hidden;
 }
  #portfolio1, #portfolio3 {
@@ -174,16 +159,7 @@ main > section {
 			transition-timing-function: ease-out;
 }
 
-/* .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
-	color: #009EE3;
-}
 
-.btn-effect:hover:before, .btn-effect:focus:before, .btn-effect:active:before {
-	-webkit-transform: scaleX(1);
-	   -moz-transform: scaleX(1);
-	    -ms-transform: scaleX(1);
-			transform: scaleX(1);
-} */
 
 .sec-title {
     margin-bottom: 50px;
@@ -349,8 +325,6 @@ h1.navbar-brand {
     display: inline-block;
 }
 
-/* this is for 3 line menu when screen is smaller (hamburger) */
-/* Flexbox for navigation bar */
 #navLines {
     display: flex;
     flex-direction: row;
@@ -390,18 +364,7 @@ h1.navbar-brand {
     }
 }
 
-/* #navLi:hover {
-    animation: shake 0.2s;
-    animation-name: shake;
-  }
-  @keyframes shake {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-10px);
-    }
-  } */
+
 /*=================================================================
 	Home Slider
 ==================================================================*/
@@ -574,16 +537,7 @@ h1.navbar-brand {
             transition: all 0.3s ease-out 0s;
 }
 
-/* .btn-effect:hover,
-.btn-effect:active {
-    color: #0e83cd;
-    
-}
 
-.btn-effect:hover:after,
-.btn-effect:active:after {
-    width: 100%;
-} */
 
 
 /* Project laughtbox setup */
@@ -615,7 +569,6 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    /* was 009EE3 */
     background-color: #2E2E2E;
     color: #fff;
 }
@@ -630,20 +583,11 @@ h1.navbar-brand {
     margin: 0 0 65px;
 }
 
-/* want image to be larger without padding  */
+
 #about .welcome-block img {
-    /* border: 3px solid #fff;
-    border-radius: 50%;
-    margin-right: 35px; */
-    /* max-width: 100px; */
+   
     width: 100px;
     height: auto;
-    /* size: 20px; */
-    /* width: 100px; */
-
-}
-#about .pull-left img{
-    /* width: fit-content; */
 
 }
 
@@ -653,10 +597,6 @@ h1.navbar-brand {
     margin-bottom: 70px;
 }
 
-/* .pull-left{
-    width: 30px;
-    height: auto;
-} */
 .owl-buttons {
     border: 2px solid #fff;
     display: inline-block;
@@ -688,7 +628,6 @@ h1.navbar-brand {
 /*=================================================================
 	Services
 ==================================================================*/
-/* as soon as I added the links in <a> below stopped working */
 #service a:visited, a:active, a:link {
     color: #818181;
   }
@@ -712,17 +651,12 @@ h1.navbar-brand {
          -o-transition: all 0.3s ease 0s;
             transition: all 0.3s ease 0s;
 }
-/* ***************************************************************** */
 .service-item:hover .service-icon {
     border: 3px solid #818181;
     margin-bottom: 20px;
     color: #009ee3;
 }
-/* #service {
-    background-image: url(../img/slider/PXL_20220604_020954767.NIGHT.jpg);
-    padding: 0;
-    color: #fff;
-} */
+
 .service-icon i {
     -webkit-transform: rotate(-48deg);
        -moz-transform: rotate(-48deg);
@@ -865,7 +799,6 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
-    /* was rbga(15,155,224, 0.78) */
     background-color: rgba(46,46,46, 0.78);
     padding: 70px 0 40px;
 }
@@ -963,7 +896,6 @@ ul.external li a:hover {
 }
 
 .price-table.featured .value {
-    /* background-color: #009EE3; */
     color: #727272;
 }
 
@@ -1010,11 +942,6 @@ ul.external li a:hover {
     text-transform: uppercase;
 }
 
-/* .price-table.featured ul li:last-child,
-.price-table ul li:last-child:hover {
-    background-color: #009EE3;
-} */
-
 .price-table.featured ul li:last-child a,
 .price-table ul li:last-child:hover a {
     color: #fff;
@@ -1024,14 +951,10 @@ ul.external li a:hover {
 /*=================================================================
 	Price
 ==================================================================*/
-/* a {
-    scroll-behavior: smooth;
-} */
+
 #social {
     background-image: url(../img/slider/fallPark.jpg);
     padding: 0;
-    /* didnt work  */
-    /* scroll-behavior: smooth; */
 }
 
 #social .overlay {
@@ -1168,109 +1091,7 @@ textarea.form-control {
 footer p {
     padding-top: 20px;
 }
-/* #navFooter {
-    display: flex; 
-    flex-wrap: nowrap;
-    justify-content: space-between;
-  } */
-   
-/* .subscribe-form {
-    position: relative;
-}
 
-.subscribe.form-control {
-    background-color: transparent;
-    border: 1px solid #7f7f7f;
-}
-
-.subscribe.form-control:focus {
-    -webkit-box-shadow: none;
-       -moz-box-shadow: none;
-            box-shadow: none;
-}
-
-.submit-icon {
-    background-color: #7f7f7f;
-    border: 0 none;
-    border-radius: 0;
-    color: #c1c1c1;
-    padding: 13px 20px;
-    position: absolute;
-    overflow: hidden;
-    right: 0;
-    top: 0;
-}
-
-.submit-icon .fa-paper-plane {
-    position: relative;
-    top: 0;
-    
-    -webkit-transform: translateX(0);
-       -moz-transform: translateX(0);
-        -ms-transform: translateX(0);
-         -o-transform: translateX(0);
-            transform: translateX(0);
-
-    -webkit-transition: all 0.3s ease 0.2s;
-       -moz-transition: all 0.3s ease 0.2s;
-        -ms-transition: all 0.3s ease 0.2s;
-         -o-transition: all 0.3s ease 0.2s;
-            transition: all 0.3s ease 0.2s;
-}
-
-.submit-icon:hover .fa-paper-plane {
-    position: relative;
-    top: -37px;
-    
-    -webkit-transform: translateX(30px);
-       -moz-transform: translateX(30px);
-        -ms-transform: translateX(30px);
-         -o-transform: translateX(30px);
-            transform: translateX(30px);
-} */
-
-/* .footer-content .footer-social {
-    margin: 40px 0 35px;
-} */
-
-/* .footer-social ul {
-    list-style: outside none none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.footer-social ul li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-.footer-social ul li a {
-    color: #7f7f7f;
-    display: block;
-    
-    -webkit-transition: all 0.2s ease 0s;
-       -moz-transition: all 0.2s ease 0s;
-        -ms-transition: all 0.2s ease 0s;
-         -o-transition: all 0.2s ease 0s;
-            transition: all 0.2s ease 0s;
-}
-
-.footer-social ul li a:hover {
-    color: #009EE3;
-} */
-/* 
-.footer-content > p {
-    color: #ababab;
-    font-size: 12px;
-} */
-
-/* @-moz-document url-prefix() {
-    .btn-effect {
-      text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 1px #ffffff;
-    }
-  } */
-  
 
 /*============================================================ 
 	Responsive Styles
@@ -1367,7 +1188,6 @@ footer p {
     }
 
     .parallax {
-        /* said centet not center */
         background-position: center tip !important;
     }
 
@@ -1511,24 +1331,11 @@ footer p {
 ==============================================================*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-/* ******************************************************************************************* */
-    /* need nav itemes to be aligned hroizontal and smaller */
-    /* nothing is working nothing changes  */
+
     #navLines {
         flex-direction: row; /* Maintain row direction */
     }
 
-    /* #navLines {
-        display: hidden;
-    }
-
-    #navBar1{
-        color: red;
-    }
-    #navLi {
-        color: red;
-    } */
-/* ******************************************************************************************** */
     .sec-title h2:after {
         left: 38%;
     }

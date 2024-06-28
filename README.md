@@ -40,17 +40,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 &copy; E TECHNOLOGIES LLC 2024
 
 
-<!-- TODO -->
-<!-- check in other browsers -->
-<!-- firefox it doesnt say contact us on slider text too dark -->
-<!-- opera too, change color of font in contact us on slider -->
 
-<!-- clean up code and clear this -->
-
-
-
-
-<!-- check all links, spelling, sizes *****-->
 
 
 
